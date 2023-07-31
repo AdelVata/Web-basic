@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width:auto;
+    height: 100px;
+    padding: 15px 80px;
+    background-color: white; 
+    border-bottom:1px solid black;
+    font-size: 23px;
+    
+}
+
+#logo {
+    width: 190px;
+    display:table;
+    float: left;
+    padding: 5px;
+}
+
+#nav {
+    width: 100%;
+    padding: 25px 0 0 0;
+    justify-content: space-between;
+}
+
+#nav a{
+    flex: 1.1;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: relative;
+    list-style: none;
+    margin: 0px 15px;
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.domov {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.domov a:hover {
+font-weight: bold;   
+}
+
+img {
+    margin: 5px 0 0 3px;
+    width: 49.5%;
+    position: relative;
+
+}
+
+.Women {
+    color: white;
+    position: absolute;
+    top:90%;
+    right: 18%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.Women:hover {
+    font-weight: 600;
+}
+
+.Men {
+    color: black;
+    position: absolute;
+    top: 90%;
+    left: 22%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+}
+
+.Men:hover {
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+footer img {
+    height: 25px;
+    width: 25px;
+    margin: 7px;
+}
+
+.B {
+    height: 40px;
+    width: 35px;
+    margin: 15px;
+}
+
+
